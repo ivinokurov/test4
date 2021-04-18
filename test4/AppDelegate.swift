@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  test4
 //
-//  Created by И.В. Винокуров on 18.04.2021.
+//  Created by И.В. Винокуров 
 //
 
 import UIKit
 
+@available(iOS 13.0, *)
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 

@@ -2,7 +2,7 @@
 //  test4UITests.swift
 //  test4UITests
 //
-//  Created by И.В. Винокуров on 18.04.2021.
+//  Created by И.В. Винокуров 
 //
 
 import XCTest
