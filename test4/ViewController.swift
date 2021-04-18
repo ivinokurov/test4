@@ -21,10 +21,10 @@ class ViewController: UIViewController {
         
         let isEmail = self.isEmail(login: login)
         let isLengthValid = self.validateLength(login: login)
-        let isValidSymbolsValid = self.validateAllSymbols(login: login)
+        let isAllSymbolsValid = self.validateAllSymbols(login: login)
         let isFirstSymbolsValid = self.validateFirstSymbols(login: login)
         
-        if isEmail || isLengthValid && isValidSymbolsValid && isFirstSymbolsValid {
+        if isEmail || isLengthValid && isAllSymbolsValid && isFirstSymbolsValid {
         // ...
         }
     }
